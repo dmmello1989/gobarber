@@ -32,7 +32,8 @@
         "linebreak-style": 0,
         "no-console": "off",
         "prettier/prettier": "error",
-        "class-methods-use-this": "off"
+        "class-methods-use-this": "off",
+        "camelcase": "off"
     },
     "settings": {
         "import/resolver": {
