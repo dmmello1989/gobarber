@@ -1,7 +1,8 @@
 /node_modules
 # compiled output
 /dist
-/tmp
+/tmp/*
+!tmp/.gitkeep
 /out-tsc
 # IDE - VSCode
 .vscode/*
@@ -9,3 +10,4 @@
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+
