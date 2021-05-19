@@ -40,6 +40,7 @@ const SignUp: React.FC = () => {
 
       <S.Content>
         <S.Logo src={logoImg} alt="GoBarber" />
+
         <S.UnformForm ref={formRef} onSubmit={handleSubmit}>
           <S.FormTitle>Faça seu cadastro</S.FormTitle>
           <Input name="name" placeholder="Nome" icon={FiUser} />
@@ -47,6 +48,7 @@ const SignUp: React.FC = () => {
           <Input name="password" type="password" placeholder="Senha" icon={FiLock} />
           <Button type="submit">Cadatrar</Button>
         </S.UnformForm>
+
         <S.BackLink href="login">
           <FiArrowLeft />
           Voltar para logon
